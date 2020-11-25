@@ -27,5 +27,17 @@ namespace CircodeApps2
             FrmIMC imc = new FrmIMC();
             imc.Show();
         }
+
+        private void PicBData_Click(object sender, EventArgs e)
+        {
+            FrmData data = new FrmData();
+            data.Show();
+        }
+
+        private void PicBViagem_Click(object sender, EventArgs e)
+        {
+            FrmViagem viagem = new FrmViagem();
+            viagem.Show();
+        }
     }
 }

@@ -32,7 +32,13 @@
             this.BtnSair = new System.Windows.Forms.Button();
             this.PicBIMC = new System.Windows.Forms.PictureBox();
             this.LblIMC = new System.Windows.Forms.Label();
+            this.LblData = new System.Windows.Forms.Label();
+            this.PicBData = new System.Windows.Forms.PictureBox();
+            this.LblViagem = new System.Windows.Forms.Label();
+            this.PicBViagem = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PicBIMC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBViagem)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnSair
@@ -69,12 +75,58 @@
             this.LblIMC.TabIndex = 2;
             this.LblIMC.Text = "Cálculo do IMC";
             // 
+            // LblData
+            // 
+            this.LblData.AutoSize = true;
+            this.LblData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblData.Location = new System.Drawing.Point(213, 154);
+            this.LblData.Name = "LblData";
+            this.LblData.Size = new System.Drawing.Size(137, 20);
+            this.LblData.TabIndex = 4;
+            this.LblData.Text = "Cálculo da Data";
+            // 
+            // PicBData
+            // 
+            this.PicBData.Image = global::CircodeApps2.Properties.Resources.calendario;
+            this.PicBData.Location = new System.Drawing.Point(204, 13);
+            this.PicBData.Name = "PicBData";
+            this.PicBData.Size = new System.Drawing.Size(152, 138);
+            this.PicBData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBData.TabIndex = 3;
+            this.PicBData.TabStop = false;
+            this.PicBData.Click += new System.EventHandler(this.PicBData_Click);
+            // 
+            // LblViagem
+            // 
+            this.LblViagem.AutoSize = true;
+            this.LblViagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblViagem.Location = new System.Drawing.Point(397, 155);
+            this.LblViagem.Name = "LblViagem";
+            this.LblViagem.Size = new System.Drawing.Size(158, 20);
+            this.LblViagem.TabIndex = 6;
+            this.LblViagem.Text = "Cálculo da Viagem";
+            // 
+            // PicBViagem
+            // 
+            this.PicBViagem.Image = global::CircodeApps2.Properties.Resources.viagem2;
+            this.PicBViagem.Location = new System.Drawing.Point(399, 14);
+            this.PicBViagem.Name = "PicBViagem";
+            this.PicBViagem.Size = new System.Drawing.Size(152, 138);
+            this.PicBViagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicBViagem.TabIndex = 5;
+            this.PicBViagem.TabStop = false;
+            this.PicBViagem.Click += new System.EventHandler(this.PicBViagem_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblViagem);
+            this.Controls.Add(this.PicBViagem);
+            this.Controls.Add(this.LblData);
+            this.Controls.Add(this.PicBData);
             this.Controls.Add(this.LblIMC);
             this.Controls.Add(this.PicBIMC);
             this.Controls.Add(this.BtnSair);
@@ -86,6 +138,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Circo de Apps";
             ((System.ComponentModel.ISupportInitialize)(this.PicBIMC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBViagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,6 +150,10 @@
         private System.Windows.Forms.Button BtnSair;
         private System.Windows.Forms.PictureBox PicBIMC;
         private System.Windows.Forms.Label LblIMC;
+        private System.Windows.Forms.Label LblData;
+        private System.Windows.Forms.PictureBox PicBData;
+        private System.Windows.Forms.Label LblViagem;
+        private System.Windows.Forms.PictureBox PicBViagem;
     }
 }
 
