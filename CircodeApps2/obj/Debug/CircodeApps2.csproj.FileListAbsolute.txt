@@ -9,3 +9,5 @@ C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.csproj.CoreCompileInputs.cache
 C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.exe
 C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.pdb
 C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.FrmIMC.resources
+C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.FrmData.resources
+C:\Programas\CircodeApps2\obj\Debug\CircodeApps2.FrmViagem.resources
