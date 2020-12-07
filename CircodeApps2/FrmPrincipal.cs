@@ -39,5 +39,35 @@ namespace CircodeApps2
             FrmViagem viagem = new FrmViagem();
             viagem.Show();
         }
+
+        private void PicBEmprestimo_Click(object sender, EventArgs e)
+        {
+            FrmEmprestimo emprestimo = new FrmEmprestimo();
+            emprestimo.Show();
+        }
+
+        private void PicBMoeda_Click(object sender, EventArgs e)
+        {
+            FrmMoeda moeda = new FrmMoeda();
+            moeda.Show();
+        }
+
+        private void PicBMega_Click(object sender, EventArgs e)
+        {
+            FrmMega mega = new FrmMega();
+            mega.Show();
+        }
+
+        private void PicBDepreciacao_Click(object sender, EventArgs e)
+        {
+            FrmDepreciacao depre = new FrmDepreciacao();
+            depre.Show();
+        }
+
+        private void PicBJuros_Click(object sender, EventArgs e)
+        {
+            FrmJuros juros = new FrmJuros();
+            juros.Show();
+        }
     }
 }

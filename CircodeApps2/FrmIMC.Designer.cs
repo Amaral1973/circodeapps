@@ -45,7 +45,7 @@
             this.BtnCalcular.Location = new System.Drawing.Point(199, 52);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Size = new System.Drawing.Size(75, 23);
-            this.BtnCalcular.TabIndex = 0;
+            this.BtnCalcular.TabIndex = 4;
             this.BtnCalcular.Text = "Calcular";
             this.BtnCalcular.UseVisualStyleBackColor = true;
             this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
@@ -56,7 +56,7 @@
             this.BtnSair.Location = new System.Drawing.Point(199, 102);
             this.BtnSair.Name = "BtnSair";
             this.BtnSair.Size = new System.Drawing.Size(75, 23);
-            this.BtnSair.TabIndex = 1;
+            this.BtnSair.TabIndex = 3;
             this.BtnSair.Text = "Sair";
             this.BtnSair.UseVisualStyleBackColor = true;
             this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
@@ -76,7 +76,7 @@
             this.TxtPeso.Location = new System.Drawing.Point(16, 52);
             this.TxtPeso.Name = "TxtPeso";
             this.TxtPeso.Size = new System.Drawing.Size(138, 20);
-            this.TxtPeso.TabIndex = 3;
+            this.TxtPeso.TabIndex = 1;
             this.TxtPeso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPeso_KeyPress);
             // 
             // LblAltura
@@ -113,7 +113,7 @@
             this.TxtAltura.Location = new System.Drawing.Point(16, 110);
             this.TxtAltura.Name = "TxtAltura";
             this.TxtAltura.Size = new System.Drawing.Size(138, 20);
-            this.TxtAltura.TabIndex = 7;
+            this.TxtAltura.TabIndex = 2;
             this.TxtAltura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtAltura_KeyPress);
             // 
             // FrmIMC
